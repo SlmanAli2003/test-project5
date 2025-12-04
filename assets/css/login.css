@@ -1,0 +1,77 @@
+
+nav .login .a_line{
+    color: #FF782D;
+}
+
+.path{
+    height: 132px;
+    background-color: #F5F5F5;
+    p{
+        padding: 90px 0 0 70px;
+        font-size: 16px;
+    }
+    span{
+        padding-right: 14px;
+    }
+    .grey{
+        color: grey;
+    }
+}
+
+.login_register{
+    margin: 56px 0 70px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    .login , .register{
+        width: 44.58vw;
+        padding: 30px;
+        border: 1px solid #EAEAEA;
+        border-radius: 20px;
+        h2{
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+        form{
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .border{
+                height: 48px;
+                border: 1px solid #9D9D9D;
+                border-radius: 8px;
+                padding-left: 16px;
+            }
+            .rememberMe{
+                .text{
+                    cursor: pointer;
+                }
+            }
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+@media screen and (max-width : 992px){
+
+    .path{
+        height: 147px;
+        p{
+            padding: 105px 0 0 20px;
+        }
+    }
+    
+    .login_register{
+        flex-direction: column;
+        align-items: center;
+        .login , .register{
+            width: 88.88vw;
+            padding: 30px 15px;
+        }
+    }
+}
+

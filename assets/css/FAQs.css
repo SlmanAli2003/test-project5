@@ -1,0 +1,27 @@
+nav ul .pageLink {
+    color: #FF782D;
+}
+
+.path{
+    height: 132px;
+    background-color: #F5F5F5;
+    p{
+        padding: 90px 0 0 70px;
+        font-size: 16px;
+    }
+    span{
+        padding-right: 14px;
+    }
+    .grey{
+        color: grey;
+    }
+}
+
+@media screen and (max-width : 992px){
+    .path{
+        height: 147px;
+        p{
+            padding: 105px 0 0 20px;
+        }
+    }
+}

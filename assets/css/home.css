@@ -1,0 +1,452 @@
+
+nav ul .homeLink .a_line{
+    color: #FF782D;
+}
+
+.hero{
+    padding-top: 72px;
+    position: relative;
+    .background{
+        width: 100vw;
+        height:calc(95vh - 72px);
+    }
+    display: flex;
+    align-items: center;
+    .textAndButton{
+        width: 572px;
+        position: absolute;
+        .fo-600{
+            padding: 0 0 24px 70px;
+            font-size: 48px;
+        }
+        .fo-400{
+            padding: 0 0 20px 70px;
+        }
+        button{
+            margin-left: 70px;
+        }
+    }
+    .girl{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.TopCategories , .Featuredcourses{
+    width: 89.75vw;
+    margin: 56px auto;
+    .title{
+        margin-bottom: 50px;
+        height: 77px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .text{
+            .fo-600{
+                font-size: 32px;
+                margin-bottom: 12px;
+            }
+        }
+        .buttons{
+            background-color: white;
+            color: black;
+            border: 2px solid #9D9D9D;
+        }
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        gap: 31px;
+        flex-wrap: wrap;
+        .card{
+            width: 234px;
+            height: 234px;
+            border: 1px solid #EAEAEA;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .fo-600{
+                margin: 24px 0 12px 0;
+            }
+        }
+    }
+    .lastButton{
+        display: none;
+    }
+}
+
+.TopCategories .title .buttons:hover{
+    background-color: #FF782D;
+    color: white;
+    border: none;
+}
+
+.TopCategories .cards .card:hover{
+    .fo-600{
+        color: #FF782D;
+    }
+    box-shadow: 0px 4px 20px #0000001A;
+    transform: translateY(-10px);
+    cursor:pointer;
+}
+
+.Featuredcourses{
+    margin: 0 auto;
+    .cards{
+        justify-content: space-between;
+        gap: 0;
+        .card1{
+            width: 28.18vw;
+            border: 1px solid #EAEAEA;
+            border-radius: 20px;
+            img{
+                width: 100%;
+                height: 250px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+            .fo-400{
+                padding: 20px 20px 0 20px;
+                .by{
+                    color: #555555;
+                }
+            }
+            .fo-600{
+                padding: 12px 20px 0 20px;
+                font-size: 20px;
+            }
+            .thirdLine{
+                padding: 16px 0 0 20px;
+                display: flex;
+                gap: 24px;
+                .section{
+                    height: 24px;
+                    display: flex;
+                    align-items: center;
+                    gap: 4px;
+                    img{
+                        width: 16px;
+                        height: 16px;
+                    }
+                    .fo-400{
+                        padding: 0;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .line{
+                width: 25.25vw;
+                height: 1px;
+                border-top: 1px solid #EAEAEA;
+                margin: 16px auto;
+            }
+            .lastLine{
+                padding: 0 20px 20px 20px;
+                display: flex;
+                justify-content: space-between;
+                .section1{
+                    p{
+                        .prise{
+                            color: #9D9D9D;
+                        }
+                        .green{
+                            font-weight: 500;
+                            color: #55BE24;
+                        }
+                    }
+                }
+                .section2{
+                    font-weight: 500;
+                    color: black;
+                }
+            }
+        }
+        .lastButton{
+            display: none;
+        }
+    }
+}
+
+.Featuredcourses .title .buttons:hover{
+    background-color: #FF782D;
+    color: white;
+    border: none;
+}
+
+.LearnPress{
+    width: 89.53vw;
+    height: 42.18vh;
+    margin: 70px auto;
+    background-image: url(./../image/background2.png) ;
+    /* background-size: 100% 100%; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .text1{
+        padding-left: 50px;
+        font-size: 16px;
+        color: #555555;
+    }
+    .title{
+        padding: 12px 0 0 50px;
+        font-size: 32px;
+    }
+    .text2{
+        padding: 24px 0 0 50px;
+        width: 450px;
+    }
+    .buttons{
+        margin: 20px 0 0 50px;
+        width: 177px;
+    }
+}
+
+.infoCards{
+    padding: 0 38px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    .card{
+        width: 284px;
+        height: 161px;
+        background-color: #F5F5F5;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        .fo-600{
+            font-size: 32px;
+            color: #FF782D;
+        }
+        .fo-400{
+            font-weight: 500;
+            color: black;
+        }
+    }
+}
+
+.ExplorerCourse{
+    width: 89.75vw;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width: 39.3118vw;
+    }
+    .contaient{
+        width: 38vw;
+        .title{
+            font-size: 32PX;
+        }
+        .text{
+            margin: 24px 0 16px 0;
+        }
+        ul{
+            color: black;
+            list-style-image: url(./../image/list\ style.png);
+            li{
+                margin-bottom: 16px;
+            }
+        }
+    }
+}
+
+.lastSection{
+    width: 89.75vw;
+    height: 32.55vh;
+    margin: 70px auto;
+    padding: 18px;
+    background-image: url(./../image/last\ section.png);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        .studentIcon{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 38.16px;
+                height: 44.92px;
+            }
+        }
+    }
+    .right .buttons:nth-child(1){
+        margin-right: 20px;
+    }
+}
+
+.lastSection .right .buttons{
+    background: none;
+    color: #FF782D;
+    border: 2px solid #FF782D;
+}
+.lastSection .right .buttons:hover{
+    background-color: #FF782D;
+    color: white;
+}
+
+@media screen and (max-width : 992px){
+    .hero{
+        padding-top: 90px;
+        .background{
+            display: none;
+        }
+        background: linear-gradient(97.77deg, #FFF5BE 0%, #D0F7EA 97.73%);
+        width: 100vw;
+        height: 100vh;
+        .textAndButton{
+            width: 100vw;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            .fo-600{
+                padding: 0 0 24px 0;
+                text-align: center;
+            }
+            .fo-400{
+                padding: 0 0 20px 0;
+                text-align: center;
+            }
+            button{
+                margin: 0 ;
+                align-self:center;
+            }
+        }
+        .girl{
+            display: none;
+        }
+    }
+
+    .TopCategories,.Featuredcourses{
+        .title{
+            margin-bottom: 40px;
+            justify-content: center;
+
+            .buttons{
+                display: none;
+            }
+        }
+        .cards{
+            .lastButton{
+                display: block;
+            }
+        }
+        .lastButton{
+            display: block;
+            width: 177px;
+            margin: 0 auto;
+            margin-top: 25px;
+            background-color: white;
+            color: black;
+            border: 2px solid #9D9D9D;
+        }
+    }
+
+    .Featuredcourses{
+        .cards{
+            flex-direction: column;
+            align-items: center;
+            gap: 35px;
+            .card1{
+                width: 88.88vw;
+                img{
+                    height: auto;
+                }
+                .line{
+                    width: 77.77vw;
+                }
+            }
+        }
+    }
+
+    .LearnPress{
+        width: 100vw;
+        height: 400px;
+        background: linear-gradient(103.63deg, #B5FFE7 1.83%, #FDC1C1 98.92%);
+        border-radius: 0;
+        align-items: center;
+        .text1{
+            padding: 0 20px 0 20px;
+            text-align: center;
+        }
+        .title{
+            padding: 12px 20px 0 20px;
+            font-size: 32px;
+            text-align: center;
+        }
+        .text2{
+            padding: 24px 20px 0 20px;
+            width: auto;
+            text-align: center;
+        }
+        .buttons{
+            width: 177px;
+            margin: 20px auto;
+        }
+    }
+
+    .ExplorerCourse{
+        width: 88.88vw;
+        flex-direction: column;
+        gap: 24px;
+        img{
+            width: 84.16vw;
+            order: 1;
+        }
+        .contaient{
+            width: 100%;
+            order: 0;
+        }
+        li{
+            margin-left: 16px;
+        }
+    }
+
+    .lastSection{
+        width: 100vw;
+        height: 400px;
+        margin: 0;
+        padding: 20px;
+        border-radius: 0;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+        align-items: center;
+        .left{
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            .studentIcon{
+                width: 80px;
+                height: 80px;
+            }
+        }
+        .right .buttons:nth-child(1){
+            margin-right: 0;
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}

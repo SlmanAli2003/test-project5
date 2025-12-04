@@ -1,0 +1,176 @@
+
+nav ul .coursesLink .a_line{
+    color: #FF782D;
+}
+
+.path{
+    height: 132px;
+    background-color: #F5F5F5;
+    p{
+        padding: 90px 0 0 70px;
+        font-size: 16px;
+    }
+    span{
+        padding-right: 14px;
+    }
+    .grey{
+        color: grey;
+    }
+}
+
+.allCourses{
+    width: 89.75vw;
+    margin: 70px auto;
+    .nav{
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        h2{
+            font-size: 36px;
+        }
+        .icons{
+            display: flex;
+            gap: 20px;
+            .search{
+                height: 31px;
+                display: flex;
+                border-bottom: 1px solid black;
+                form{
+                    input{
+                        border: none;
+                    }
+                }
+            }
+            img{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+    .courses{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .card{
+            width: 28.18vw;
+            border: 1px solid #EAEAEA;
+            border-radius: 20px;
+            img{
+                width: 100%;
+                height: 250px;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+            .fo-400{
+                padding: 20px 20px 0 20px;
+                .by{
+                    color: #555555;
+                }
+            }
+            .fo-600{
+                padding: 12px 20px 0 20px;
+                font-size: 20px;
+            }
+            .thirdLine{
+                padding: 16px 0 0 20px;
+                display: flex;
+                gap: 24px;
+                .section{
+                    height: 24px;
+                    display: flex;
+                    align-items: center;
+                    gap: 4px;
+                    img{
+                        width: 16px;
+                        height: 16px;
+                    }
+                    .fo-400{
+                        padding: 0;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .line{
+                width: 25.25vw;
+                height: 1px;
+                border-top: 1px solid #EAEAEA;
+                margin: 16px auto;
+            }
+            .lastLine{
+                padding: 0 20px 20px 20px;
+                display: flex;
+                justify-content: space-between;
+                .section1{
+                    p{
+                        .prise{
+                            color: #9D9D9D;
+                        }
+                        .green{
+                            font-weight: 500;
+                            color: #55BE24;
+                        }
+                    }
+                }
+                .section2{
+                    font-weight: 500;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+.circles{
+    width: 288px;
+    margin: 70px auto;
+    display: flex;
+    .circle{
+        width: 48px;
+        height: 48px;
+        margin-right: 12px;
+        border-radius: 50%;
+        border: 1px solid #EAEAEA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .circle:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+@media screen and (max-width : 992px){
+    .path{
+        height: 147px;
+        p{
+            padding: 105px 0 0 20px;
+        }
+    }
+
+    .allCourses{
+        width: 88.88vw;
+        .nav{
+            flex-direction: column;
+            gap: 32px;
+            h2{
+                font-size: 32px;
+            }
+        }
+        .courses{
+            flex-direction: column;
+            align-items: center;
+            gap: 35px;
+            .card{
+                width: 88.88vw;
+                img{
+                    height: auto;
+                }
+                .line{
+                    width: 77.77vw;
+                }
+            }
+        }
+    }
+}
+
